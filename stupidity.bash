@@ -124,7 +124,7 @@ function list_layouts() {
 }
 
 function help() {
-    #    "----.----1----.----2----.----3----.----4----.----5----.----6"
+    #    "----.----1----.----2----.----3----.----4----.----5----.----6----"
     echo "Usage: stupidity <command> [args]"
     echo "Commands:"
     echo "  change <layout_name>    Change to the specified layout"
@@ -135,8 +135,8 @@ function help() {
     echo "  next                    Change to the next layout in the list"
     echo "                           (wraps around to the first layout)"
     echo "  get                     Get the current layout"
-    echo "  abv <type>              Get the current abbreviation of"
-    echo "                           the specified type:"
+    echo "  abv <type>              Get the current abbreviation of the"
+    echo "                           specified type:"
     echo "                              0: 2-letter"
     echo "                              1: 3-letter"
     echo "                              2: long abbreviation"
